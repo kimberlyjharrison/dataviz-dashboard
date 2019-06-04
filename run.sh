@@ -1,1 +1,1 @@
-FLASK_APP=dataviz-dashboard/app.py flask run
+FLASK_APP=dataviz_dashboard/app.py flask run

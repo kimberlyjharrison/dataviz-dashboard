@@ -1,1 +1,1 @@
-web: gunicorn dataviz-dashboard.app:app --log-file=-
+web: gunicorn dataviz_dashboard.app:app --log-file=-
