@@ -104,10 +104,10 @@ function buildCharts(sample) {
       title: '<b>Belly Button OTU Bubble Chart</b> <br> Sample' + ` ${sample}`,
       height: 600,
       width: 1600,
-      margin: {
-        l: 300,
-        r: 200,
-      },
+      // margin: {
+      //   l: 300,
+      //   r: 200,
+      // },
       xaxis: {
         title: "Operational Taxonomical Units (OTU)",
       },
