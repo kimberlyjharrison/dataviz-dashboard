@@ -2,7 +2,7 @@ function buildMetadata(sample) {
     panel = d3.select("#sample-metadata")
     panel.html("")
 
-    url = 'http://127.0.0.1:5000/metadata/'+sample;
+    url = '/metadata/'+sample;
 
     d3.json(url).then(function(data) {
       Object.entries(data).forEach(([key, value])=> {
@@ -81,7 +81,7 @@ function buildMetadata(sample) {
 
 function buildCharts(sample) {
 
-  url = 'http://127.0.0.1:5000/samples/'+sample;
+  url = '/samples/'+sample;
   d3.json(url).then(function(data) {
     var otu_ids = data.otu_ids;
     var sample_values = data.sample_values;
