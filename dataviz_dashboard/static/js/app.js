@@ -118,7 +118,7 @@ function buildCharts(sample) {
 
     Plotly.newPlot('bubble', data1, layout1)
     
-    data.sample_values.sort((a,b) => parseFloat(b) - parseFloat(a));
+    // data.sample_values.sort((a,b) => parseFloat(b) - parseFloat(a));
   
     trace2 = {
       values: data.sample_values.slice(0,10),
